@@ -35,6 +35,7 @@ Assets/Arts/Font/
 
 # TextMesh Pro (Unity 자동 임포트)
 Assets/TextMesh Pro/
+Assets/TextMesh Pro.meta
 
 # 에디터 메타 파일은 포함 (Assets 폴더 내 필수)
 !/Assets/**/*.meta
