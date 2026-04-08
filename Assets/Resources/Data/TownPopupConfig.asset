@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ca8d0af96c8a004e9ed82e536b1d3b0, type: 3}
+  m_Name: TownPopupConfig
+  m_EditorClassIdentifier: Game::Game.UI.Core.UIPopupConfig
+  _entries:
+  - PopupType: 0
+    Prefab: {fileID: 853797648603094057, guid: 3aa6202f2bcb0484799b4f81dce15740, type: 3}
+  - PopupType: 1
+    Prefab: {fileID: 1831723178548446700, guid: f05d138f82441e242ad9eb4ae68d355d, type: 3}
+  - PopupType: 2
+    Prefab: {fileID: 1831723178548446700, guid: 4a168d99df69bba44b34279a754d8306, type: 3}
+  - PopupType: 3
+    Prefab: {fileID: 717851148265095814, guid: 6d5abbc905ca243479c23afa0962ccf6, type: 3}

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3614e4d2fd86a6498540ca28aa500b4, type: 3}
+  m_Name: GlobalCsvConfig
+  m_EditorClassIdentifier: Game::Game.Data.Config.GlobalCsvConfig
+  itemCatalogCsv: {fileID: 4900000, guid: ae992f9308c491d4c9194094d64d0d6b, type: 3}
+  dropTableCsv: {fileID: 4900000, guid: d59145921a741a746927ac1a91afdee6, type: 3}

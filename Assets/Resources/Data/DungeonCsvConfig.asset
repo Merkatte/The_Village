@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143c05015b426fc4d93c113eed9cfda1, type: 3}
+  m_Name: DungeonCsvConfig
+  m_EditorClassIdentifier: Game::Game.Data.Config.DungeonCsvConfig
+  spawnPointsCsv: {fileID: 4900000, guid: 7972f8d4b40b1994db26e4416bda95b3, type: 3}
+  dropTablesCsv: {fileID: 4900000, guid: d59145921a741a746927ac1a91afdee6, type: 3}
+  itemCatalogCsv: {fileID: 4900000, guid: ae992f9308c491d4c9194094d64d0d6b, type: 3}

@@ -1,0 +1,36 @@
+# ItemCatalog.csv
+# 열 설명:
+#   ItemId                   : 고유 식별자 (소문자_언더스코어 권장)
+#   ItemName                 : 표시 이름
+#   ItemType                 : Resource / HarvestTool / FarmTool / Weapon / Armor
+#   Grade                    : Normal / Rare / Epic
+#   MaxStackSize             : 최대 스택 수 (1 = 겹치지 않음)
+#   Value                    : 기본 가치 (골드). 상점 매입/판매가의 기준값
+#   ResourceType             : Resource 타입일 때만 입력 (Wood / Stone / Herb ...)
+#   ToolType                 : Tool 타입일 때만 입력 (Axe / Pickaxe / Scythe / Shovel)
+#   HarvestDurationMultiplier: HarvestTool 전용, 채취 시간 배율 (기본 1.0)
+#   YieldMultiplier          : HarvestTool 전용, 수확량 배율 (기본 1.0)
+#   AttackPower              : Weapon 전용
+#   DefensePower             : Armor 전용
+ItemId,ItemName,ItemType,Grade,MaxStackSize,Value,ResourceType,ToolType,HarvestDurationMultiplier,YieldMultiplier,AttackPower,DefensePower
+# ─ 자원 ─────────────────────────────────────────────────────────
+wood,나무,Resource,Normal,99,5,Wood,,,,,
+stone,돌,Resource,Normal,99,3,Stone,,,,,
+herb,약초,Resource,Normal,99,8,Herb,,,,,
+iron_ore,철광석,Resource,Normal,99,15,IronOre,,,,,
+gold_ore,금광석,Resource,Rare,99,40,GoldOre,,,,,
+crystal,수정,Resource,Epic,99,100,Crystal,,,,,
+bone,뼈,Resource,Normal,99,5,Bone,,,,,
+leather,가죽,Resource,Normal,99,10,Leather,,,,,
+magic_essence,마력 정수,Resource,Rare,99,50,MagicEssence,,,,,
+# ─ 채취 도구 ─────────────────────────────────────────────────────
+axe_iron,철 도끼,HarvestTool,Normal,1,200,,Axe,0.8,1.2,,
+axe_gold,금 도끼,HarvestTool,Rare,1,500,,Axe,0.6,1.5,,
+pickaxe_iron,철 곡괭이,HarvestTool,Normal,1,200,,Pickaxe,0.8,1.2,,
+pickaxe_gold,금 곡괭이,HarvestTool,Rare,1,500,,Pickaxe,0.6,1.5,,
+# ─ 무기 ─────────────────────────────────────────────────────────
+sword_basic,기본 검,Weapon,Normal,1,300,,,,,30,
+sword_iron,철 검,Weapon,Rare,1,700,,,,,60,
+# ─ 방어구 ────────────────────────────────────────────────────────
+shield_basic,기본 방패,Armor,Normal,1,250,,,,,,20
+shield_iron,철 방패,Armor,Rare,1,600,,,,,,45

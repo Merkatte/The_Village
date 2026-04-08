@@ -1,0 +1,40 @@
+# Unity 자동 생성 폴더
+/Library/
+/Temp/
+/Logs/
+/obj/
+/Builds/
+/UserSettings/
+
+# Visual Studio / Rider
+*.csproj
+*.sln
+*.sln.DotSettings.user
+.vs/
+.idea/
+
+# 빌드 결과물
+*.pidb
+*.pdb
+*.mdb
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code 개인 설정
+.claude/settings.local.json
+
+# 폰트 (라이선스 별도 관리)
+Assets/Arts/Font/
+
+# TextMesh Pro (Unity 자동 임포트)
+Assets/TextMesh Pro/
+
+# 에디터 메타 파일은 포함 (Assets 폴더 내 필수)
+!/Assets/**/*.meta
